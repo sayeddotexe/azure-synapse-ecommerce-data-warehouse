@@ -146,13 +146,12 @@ azure-synapse-ecommerce-data-warehouse/
 ├── README.md
 ├── .gitignore
 ├── synapse/
-│   └── NB_Transform_Sales.ipynb         # export your real notebook
-├── sql/
-│   ├── create_serverless_views.sql      # add your real view definitions
-│   └── validation_queries.sql          # example validation queries provided
+│   └── NB_Transform_Sales.ipynb         
+├── sql/   
+│   └── validation_queries.sql          
 ├── sample-data/
-│   ├── carts_sample.json               # optional small API sample
-│   └── products_sample.json            # optional small API sample
+│   ├── carts_sample.json              
+│   └── products_sample.json           
 └── docs/
     ├── SCREENSHOTS.md
     └── images/
